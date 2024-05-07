@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/dictionary/static/css/main.4604f2dd.css",
-    "main.js": "/dictionary/static/js/main.ac70e512.js",
-    "static/js/453.2d6a17fa.chunk.js": "/dictionary/static/js/453.2d6a17fa.chunk.js",
-    "static/media/Inter-VariableFont_slnt,wght.ttf": "/dictionary/static/media/Inter-VariableFont_slnt,wght.aadb65ac45347ff46699.ttf",
-    "static/media/Inconsolata-VariableFont_wdth,wght.ttf": "/dictionary/static/media/Inconsolata-VariableFont_wdth,wght.1f56ee050cf1f63c7314.ttf",
-    "static/media/Lora-VariableFont_wght.ttf": "/dictionary/static/media/Lora-VariableFont_wght.08d5a3eb917fa40a7168.ttf",
-    "index.html": "/dictionary/index.html",
-    "static/media/icon-arrow-down.svg": "/dictionary/static/media/icon-arrow-down.aa902848ffe2b4ed5369.svg",
-    "main.4604f2dd.css.map": "/dictionary/static/css/main.4604f2dd.css.map",
-    "main.ac70e512.js.map": "/dictionary/static/js/main.ac70e512.js.map",
-    "453.2d6a17fa.chunk.js.map": "/dictionary/static/js/453.2d6a17fa.chunk.js.map"
+    "main.css": "/dictionary-webapp/static/css/main.2394c4ad.css",
+    "main.js": "/dictionary-webapp/static/js/main.784146b0.js",
+    "static/js/453.2d6a17fa.chunk.js": "/dictionary-webapp/static/js/453.2d6a17fa.chunk.js",
+    "static/media/Inter-VariableFont_slnt,wght.ttf": "/dictionary-webapp/static/media/Inter-VariableFont_slnt,wght.aadb65ac45347ff46699.ttf",
+    "static/media/Inconsolata-VariableFont_wdth,wght.ttf": "/dictionary-webapp/static/media/Inconsolata-VariableFont_wdth,wght.1f56ee050cf1f63c7314.ttf",
+    "static/media/Lora-VariableFont_wght.ttf": "/dictionary-webapp/static/media/Lora-VariableFont_wght.08d5a3eb917fa40a7168.ttf",
+    "index.html": "/dictionary-webapp/index.html",
+    "static/media/icon-arrow-down.svg": "/dictionary-webapp/static/media/icon-arrow-down.aa902848ffe2b4ed5369.svg",
+    "main.2394c4ad.css.map": "/dictionary-webapp/static/css/main.2394c4ad.css.map",
+    "main.784146b0.js.map": "/dictionary-webapp/static/js/main.784146b0.js.map",
+    "453.2d6a17fa.chunk.js.map": "/dictionary-webapp/static/js/453.2d6a17fa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4604f2dd.css",
-    "static/js/main.ac70e512.js"
+    "static/css/main.2394c4ad.css",
+    "static/js/main.784146b0.js"
   ]
 }
