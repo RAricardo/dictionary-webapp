@@ -1,0 +1,80 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 51.5px;
+}
+
+.settings {
+  display: flex;
+  flex-direction: row;
+  gap: 26px;
+  align-items: center;
+}
+
+.theme-changer {
+  display: flex;
+  flex-direction: row;
+  gap: 26px;
+  align-items: center;
+  gap: 18px;
+}
+
+.dark .theme-changer svg path {
+  stroke: #a445ed;
+}
+
+button {
+  position: relative;
+  width: 40px;
+  height: 20px;
+  border-radius: 20px;
+  border: none;
+  transition: background-color 0.5s ease;
+}
+
+button::after {
+  content: "";
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  background-color: white;
+  z-index: 2;
+  border-radius: 100%;
+  top: 3px;
+  left: 0px;
+
+  transition: left 0.5s;
+}
+
+.light button {
+  background-color: #757575;
+}
+
+.light button::after {
+  left: 3px;
+}
+
+.dark button {
+  background-color: #a445ed;
+  transition: background-color 0.5s ease;
+}
+
+button:hover {
+  background-color: #a445ed;
+}
+
+.dark button::after {
+  left: 24px;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+    margin-bottom: 51.5px;
+  }
+}
+@media only screen and (max-width: 479px) {
+  .navbar {
+    margin-bottom: 24px;
+  }
+}

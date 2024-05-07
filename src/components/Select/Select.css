@@ -1,0 +1,87 @@
+select {
+  display: none;
+}
+
+.select {
+  position: relative;
+}
+
+.select-input {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  background-color: rgba(255, 255, 255, 0);
+  background-image: url("../../../public/images/icon-arrow-down.svg");
+  background-repeat: no-repeat;
+  background-position: 100%;
+  padding-right: 30px !important;
+  cursor: pointer;
+}
+
+.options-box {
+  position: absolute;
+  border-radius: 16px;
+  background: var(--FFFFFF, #fff);
+  box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.1);
+  padding: 24px;
+  padding-right: 69px;
+  top: 42px;
+  right: 0;
+  z-index: 20;
+}
+
+.dark .options-box {
+  background: var(--1F1F1F, #1f1f1f);
+  box-shadow: 0px 5px 30px 0px #a445ed;
+}
+
+.option {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.options-box .option:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.options-box .option:hover {
+  color: var(--A445ED, #a445ed);
+  cursor: pointer;
+}
+
+.light select {
+  color: var(--2D2D2D, #2d2d2d);
+}
+
+.dark select {
+  color: #fff;
+}
+
+select:focus {
+  outline: none;
+}
+
+.sans-serif {
+  font-family: "sans-serif";
+}
+
+.serif {
+  font-family: "serif";
+}
+
+.mono {
+  font-family: "mono";
+}
+
+@media only screen and (max-width: 768px) {
+  .select-input {
+    font-size: 14px;
+  }
+
+  .option {
+    font-size: 14px;
+  }
+}

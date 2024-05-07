@@ -1,0 +1,16 @@
+svg:hover g circle {
+  opacity: 1;
+  cursor: pointer;
+}
+
+svg:hover g path {
+  fill: white;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 479px) {
+  .audio_player svg {
+    width: 48px;
+    height: 48px;
+  }
+}
